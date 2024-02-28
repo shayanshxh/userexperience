@@ -6,19 +6,37 @@
 import random
 
 # Simplified example with one category. Expand as needed.
+# Simplified example with one category. Expand as needed.
 questions = {
     "Science": [
         ("What is the chemical symbol for water?", "H2O"),
-        # Add more questions as tuples (question, answer)
+        ("Who developed the theory of relativity?","Albert Einstein"),
+        ("Which planet is known as the red planet?",  "Venus"),
+        ("What does DNA stands for?","Deoxyribonucleic Acid" )
     ],
+
+"General Education":[
+        ("How many time zones are there in Russia?","11"),
+        ("What’s the national flower of Japan?","Cherry Blossom"),
+        ("What’s the national animal of Australia?","Kangroo"),
+        ("How many days does it take for the Earth to orbit the Sun?", "365 ")
+
+
+
+]
+
 }
 
 hints = {
     "Science": [
-        # Pair each question with a corresponding hint.
+        "hydrogen","Einstein","8th planet", "deoxyr"
+        
     ],
-    # Repeat for other categories as needed.
-}
+    "General Education":[
+        "Time zones","flowers","animal","one year" 
+        
+    ]
+    
 
 #---------------------------------------
 
