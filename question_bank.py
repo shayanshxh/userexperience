@@ -53,9 +53,9 @@ def select_random_question(category):
     #------------------------
     # Add your code here
     #------------------------
-    return random.choice(questions[category])
+    question = random.choice(questions[category])
+    return question
     #------------------------
-
 #---------------------------------------
 
 def check_answer(player_answer, correct_answer):
