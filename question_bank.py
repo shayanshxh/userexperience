@@ -36,7 +36,7 @@ hints = {
         "Time zones","flowers","animal","one year" 
         
     ]
-    
+}    
 
 #---------------------------------------
 
