@@ -17,7 +17,19 @@ def choose_difficulty():
     #------------------------
     # Add your code here
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    print("Choose difficulty level:")
+    print("Easy")
+    print("Medium")
+    print("Hard")
+    
+    difficulty=input("Enter your difficulty level:")
+    while True:
+        choice = input("Enter your choice (easy/medium/hard): ")
+        if choice in ['easy', 'medium', 'hard']:
+            return choice
+        else:
+            print("Invalid choice. Please enter")
+
     #------------------------
 
 #---------------------------------------
