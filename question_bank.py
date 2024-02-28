@@ -91,8 +91,8 @@ def remove_question(category, question):
     """
     #------------------------
     # Add your code here
+    questions[category] = [q for q in questions[category] if q[0] != question]
     #------------------------
-    pass
     #------------------------
 
 #---------------------------------------
@@ -109,8 +109,11 @@ def display_question_and_accept_answer(question):
     """
     #------------------------
     # Add your code here
+    print(question)
+    return input("Your answer: ")
+
     #------------------------
-    pass
+
     #------------------------
 
 #---------------------------------------
@@ -128,8 +131,11 @@ def provide_hint(category, question):
     """
     #------------------------
     # Add your code here
+    hint_index = questions[category].index((question, None))
+    return hints[category][hint_index]
+
     #------------------------
-    pass
+
     #------------------------
 
 #---------------------------------------
@@ -146,8 +152,9 @@ def display_correct_answer(correct_answer):
     """
     #------------------------
     # Add your code here
+    print("The correct answer is:", correct_answer)
     #------------------------
-    pass
+
     #------------------------
 
 #---------------------------------------
