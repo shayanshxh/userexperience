@@ -38,7 +38,6 @@ def choose_category(categories):
     else:
         print("Invalid category")
         return choose_category(categories)
-categories=["category1", "category2", "category3", "category4"]
     #------------------------
 
 #---------------------------------------
@@ -154,7 +153,7 @@ def next_round(round_number):
     #------------------------
     # Add your code here
     #------------------------
-    
+    pass
     #------------------------
 
 #---------------------------------------
@@ -172,7 +171,7 @@ def check_game_over(incorrect_answers):
     #------------------------
     # Add your code here
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    pass
     #------------------------
 
 #---------------------------------------
@@ -187,7 +186,7 @@ def restart_or_exit():
     #------------------------
     # Add your code here
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    pass
     #------------------------
 
 #---------------------------------------
